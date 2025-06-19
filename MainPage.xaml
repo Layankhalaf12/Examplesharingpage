@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LoopQuestions.MainPage">
+
+
+                <ScrollView>
+                    <VerticalStackLayout Padding="20" Spacing="15">
+                        <Label Text="Week 2 Practice Questions" FontAttributes="Bold" FontSize="24" />
+
+                        <!-- Add input fields, buttons, and labels for each question below -->
+
+              
+                        <!-- Continue this pattern for all remaining questions -->
+
+                        <Button Text="Run Loop 1: Print 'Welcome to Java 1' 10x" Clicked="OnLoop1Clicked" />
+                        <Label x:Name="Loop1Label" />
+
+                        <Button Text="Loop 2: Print numbers -10 to 10" Clicked="OnLoop2Clicked" />
+                        <Label x:Name="Loop2Label" />
+
+                        <Button Text="Loop 3: Sum odd numbers 0–100" Clicked="OnLoop3Clicked" />
+                        <Label x:Name="Loop3Label" />
+
+                        <Button Text="Loop 4: Sum even numbers 1–501" Clicked="OnLoop4Clicked" />
+                        <Label x:Name="Loop4Label" />
+
+                        <Button Text="Loop 5: Numbers 1–200 divisible by 7" Clicked="OnLoop5Clicked" />
+                        <Label x:Name="Loop5Label" />
+
+                        <Button Text="Loop 6: Numbers 1–200 divisible by 4 and 7" Clicked="OnLoop6Clicked" />
+                        <Label x:Name="Loop6Label" />
+
+                        <Button Text="Loop 7: Start Guess Game" Clicked="OnStartGuessing" />
+                        <Entry x:Name="GuessEntry" Placeholder="Enter your guess" Keyboard="Numeric" />
+                        <Button Text="Submit Guess" Clicked="OnGuessClicked" />
+                        <Label x:Name="GuessResultLabel" />
+
+                        <Button Text="Loop 8/9: Start Math Quiz" Clicked="OnMathQuizStart" />
+                        <Label x:Name="QuizQuestionLabel" />
+                        <Entry x:Name="QuizAnswerEntry" Placeholder="Enter answer or 'q' to quit" />
+                        <Button Text="Submit Answer" Clicked="OnMathQuizAnswer" />
+                        <Label x:Name="QuizResultLabel" />
+
+                        <Button Text="Loop 10: 10 Random Numbers Sum" Clicked="OnRandomSumClicked" />
+                        <Label x:Name="RandomSumLabel" />
+
+                        <Button Text="Loop 11A: Star Pattern" Clicked="OnPatternA" />
+                        <Label x:Name="PatternALabel" />
+
+                        <Button Text="Loop 11B: Number Pattern" Clicked="OnPatternB" />
+                        <Label x:Name="PatternBLabel" />
+                    </VerticalStackLayout>
+                </ScrollView>
+
+
+</ContentPage>
